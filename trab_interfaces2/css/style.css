@@ -8,8 +8,16 @@ header{
     padding-top: 2%;
     border-radius: 1%;
 }
+.titulo{
+    margin:2%;
+    
+}
 .hdr{
     margin-left: 2%;
+}
+#fotohd{
+    width:10%;
+    height:10%;
 }
 nav a{
     text-decoration: none;
@@ -54,6 +62,11 @@ main{
     margin-top: 0%;
     border-radius: 3%;
 }
+main img {
+    
+    width:100%;
+    height:250px;
+}
 footer{
     background-color: lightblue;
     padding: 2%;
@@ -62,24 +75,29 @@ footer{
 }
 footer a{
     text-decoration: none;
-   color: black;
+    color: black;
 
 }
 footer li{
     list-style: none;
 }
-.galeria{
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 100px;
+#galeria{
     background-color: lightblue;
     padding: 7%;
     justify-content: center;
     margin: 1%;
     border-radius: 5%;
+    text-align: center;
+   
+
+}
+.fotos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 100px;
+    width: calc(70%-2px);
+
 }
 
-.galeria img{
-    width: calc(70% - 2px);   
-    height: 230px;  
-}
+
